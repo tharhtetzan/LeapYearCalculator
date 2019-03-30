@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LeapYearCalculator.exe" version="1.0.0.0" publicKeyToken="f6f59b7f35247b13" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LeapYearCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LeapYearCalculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LeapYearCalculator.exe" size="187792">
+      <assemblyIdentity name="LeapYearCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/eo5AEqO14uTAVogaVHD7AvoElNdAoMF76YdDJRDW2Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LeapYearCalculator.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=THZ\Dell" issuerKeyHash="06604512e56c7ad64cbbbbf6c2bcc1a022fa4228" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>b39CT1TPQYCvlF8te5F84Ba3859RNarx/rAl0zF5INk=</DigestValue></Reference></SignedInfo><SignatureValue>oGUn2Rk0hl8TB/nEGJFUU8Imt0dOpPQSSywgCvI/QwBFsN2UbpgLeqbj0BKMH+P3hmTQQs7ShtBUlcIF3g/5bpvwuxv7nilph56ThCMxCxZLeawpgFAayCrG2CmuINHTrR5kjHAwZrVtFG7RHmZQu/F3bKHLM+hsKK46ClppKOo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qBVzrqqPfQx4kv+XBaCbaMRwJQj5kqIFH9chhOtGQzCSd0B0VXX7SbSXb5GEUoKRwJVDga1GIAuAwuVk6QPs+TWualjZ9jlf0E2fdjqNSlWhbMY4bhJQFtJ6GeNRwx5VFFnps4TsoMRoL3dp5nJy1orF8y9xwXb04sn8tdD2e60=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d9207931d325b0fef1aa35519ff3b716e07c917b2d5f94af8041cf544f427f6f" Description="" Url=""><as:assemblyIdentity name="LeapYearCalculator.exe" version="1.0.0.0" publicKeyToken="f6f59b7f35247b13" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=THZ\Dell</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>F3NC7VqF3jBhyeNUSoMy4ssRs3gkLFietK69CtRMmdw=</DigestValue></Reference></SignedInfo><SignatureValue>Xm/E7mGBFcfwlTcsljNCm0qMd3W9hSnHOEgOz5crxfYkf6QcDY+lGIAlKHW1zf7zcCTD1gYCoVMTsjEvUhgX5FDtDgJlZTpKVIiVkvq+JZBTBYH+If2ZM+oJI0h2YuzpXYoMbq3FwDk5Lt8MGhsaCAynb4ORi+Rb0AFREi2/4EM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qBVzrqqPfQx4kv+XBaCbaMRwJQj5kqIFH9chhOtGQzCSd0B0VXX7SbSXb5GEUoKRwJVDga1GIAuAwuVk6QPs+TWualjZ9jlf0E2fdjqNSlWhbMY4bhJQFtJ6GeNRwx5VFFnps4TsoMRoL3dp5nJy1orF8y9xwXb04sn8tdD2e60=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQTGzyUfoX2LpKC9l+niVf9jANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDHhAAVABIAFoAXABEAGUAbABsMB4XDTE5MDMxMzE1MTYxN1oXDTIwMDMxMjIxMTYxN1owGzEZMBcGA1UEAx4QAFQASABaAFwARABlAGwAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqBVzrqqPfQx4kv+XBaCbaMRwJQj5kqIFH9chhOtGQzCSd0B0VXX7SbSXb5GEUoKRwJVDga1GIAuAwuVk6QPs+TWualjZ9jlf0E2fdjqNSlWhbMY4bhJQFtJ6GeNRwx5VFFnps4TsoMRoL3dp5nJy1orF8y9xwXb04sn8tdD2e60CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBI4Xd7gbOkgAXg67XiQN9UHy1WmGaFBVDYMa9AriePrqAKFPa8ZsTGqLCabzi1WAda4xKjgvczFJ+SuU8ubMuPRk1MQr4mKLEozDzhNdvLJo4wUBo3YQhHyrGyu9rtuOEmy18W64qdgCj1N7K64O5xNpajyhcARJUwS4Fg9rlj9w==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

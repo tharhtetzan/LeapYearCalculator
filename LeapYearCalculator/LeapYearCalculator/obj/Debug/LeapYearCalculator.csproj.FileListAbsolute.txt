@@ -1,0 +1,16 @@
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\bin\Debug\LeapYearCalculator.exe.config
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\bin\Debug\LeapYearCalculator.exe
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\bin\Debug\LeapYearCalculator.pdb
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.Form1.resources
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.Properties.Resources.resources
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.exe
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.pdb
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.Rock_Siccor_Paper.resources
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.messagebox.resources
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\bin\Debug\LeapYearCalculator.exe.manifest
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\bin\Debug\LeapYearCalculator.application
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.exe.manifest
+C:\Users\Dell\source\repos\LeapYearCalculator\LeapYearCalculator\obj\Debug\LeapYearCalculator.application
